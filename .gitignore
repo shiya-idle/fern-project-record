@@ -1,0 +1,15 @@
+# Never commit credentials or deployment-specific configuration
+.env
+.env.*
+*.pem
+*.key
+config.php
+config.local.php
+fern-config.php
+FERN_CONFIG
+
+# Local tooling and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
